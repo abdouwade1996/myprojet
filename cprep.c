@@ -8,7 +8,8 @@
 #include <errno.h>
 #include <sys/types.h>
 
-#define CHEMIN_MAX 51
+#define CHEMIN_MAX 512
+//Fonction principale
 
 int main(int argc, char *argv[])
 {
