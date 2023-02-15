@@ -8,7 +8,7 @@
 #include <errno.h>
 #include <sys/types.h>
 
-#define CHEMIN_MAX 512
+#define CHEMIN_MAX 51
 
 int main(int argc, char *argv[])
 {
@@ -114,6 +114,6 @@ int main(int argc, char *argv[])
         close(file_src);
         close(file_dest); 
     }
-    
+
     exit(0);
 }
