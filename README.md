@@ -2,4 +2,4 @@
 
 # work_to_geiger
 
-A faire ajouter un fichier 'gitignore'
+A faire ajouter un fichier `.gitignore`
