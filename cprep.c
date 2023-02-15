@@ -114,5 +114,6 @@ int main(int argc, char *argv[])
         close(file_src);
         close(file_dest); 
     }
+    
     exit(0);
 }
