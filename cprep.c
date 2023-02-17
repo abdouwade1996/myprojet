@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     //Vérification du nombre d'arguments
     if (argc < 4)
     {
-        perror("usage : cprep taille rep f1 ... fn\n");
+        fprintf(stderr,"usage : cprep taille rep f1 ... fn\n");
         exit(1);
     }
 
@@ -24,14 +24,14 @@ int main(int argc, char *argv[])
     int size = atoi(argv[1]);
     if (size <= 0)
     {
-        perror("Erreur : la taille doit être un entier positif\n");
+        fprintf(stderr,"Erreur : la taille doit être un entier positif\n");
         exit(1);
     }
     
     //Récupération du répertoire de destination 
     if (strlen(argv[2]) >= CHEMIN_MAX) 
     {
-        perror("Erreur : le chemin du répertoire est trop long\n");
+        fprintf(stderr,"Erreur : le chemin du répertoire est trop long\n");
         exit(1);
     }
 
